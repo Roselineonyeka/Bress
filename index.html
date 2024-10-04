@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="src/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Bress_design</title>
+</head>
+<body>
+    <div class="top_container">
+        <section class="bress_container">
+            <div class="bress_div_container">
+            <div class="bressImage">
+                <img id="logo" src="image/Exclude.png"  style="height: 48px; width: 48px;"/>
+                <p class="bress">BRESS</p>
+            </div>
+        
+            <div class="dashBoard_container">
+                <div class="dashBoard">
+                <i class="fa fa-th-large"></i>
+                <p>Dashboard</p>
+            </div>
+            <div class="dashBoard">
+                <i class="fa fa-pie-chart"></i>
+                <p>Projects</p>
+            </div>
+            <div class="taskList">
+                <i class="fa fa-list-alt"></i>
+                <p>Task List</p>
+            </div>
+            <div class="dashBoard">
+                <img src="image/Group 25.png" style="height: 16px; width: 16px;"/>
+                <p>Services</p>
+            </div>
+            <div class="dashBoard">
+                <i class="icon fa fa-bell"></i>
+                <p>Notification</p>
+                <p id="two">2</p>
+            </div>
+            <div class="dashBoard">
+                <i class="fa fa-commenting"></i>
+                <p>Chat</p>
+            </div>
+          
+        
+
+         
+          </div>
+          <div class="img_div_container">
+            <div id="img_div">
+            <img class="face" src="image/Rose (2).jpg" alt="My Face" >
+            <div class="dot"></div>
+        </div>
+        <div class="name_div">
+            <p><b>Uchechi Onyeka</b></p>
+            <a>uchechionyeka36@gmail.com</a>
+        </div>
+      </div>
+        </div>
+        </section>
+        <div class="top_div">
+            <section class="top_div2">
+                <div class="search-container">
+                    <input type="text"id="txtSearch" placeholder="Search..." style="font-size: 10px;">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+        
+                <div class="month"> <p>Monday 6th March</p><i class="fa fa-angle-down"></i>
+                </div>
+                <div class="listCardDiv">
+                    <div id="card">
+                        <i class=" icon2 fa fa-credit-card"></i>
+                        <p>Card</p>
+                    </div>
+                    <div id="list">
+                        <i class="icon2 fa fa-list"></i>
+                        <p>List</p>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="checkbox_section">
+                <div class="last">
+                    <p class="tasks"><b>Last tasks</b></p>
+                    <div class="twenty_three">
+                        <p class="nine"><b>94 </b></p>
+                        <p><b>23 </b></p>
+                    </div>
+                </div>
+                <div class="doneprogress">
+                    <p class="total"><b>117 total,</b> proceed to resovle them</p>
+                    <div class="totalDone">
+                        <div id="done">Done</div>
+                        <div id="progress">In progress</div>
+                    </div>
+                </div>
+                <table class="table_container">
+                    <tr>
+                        <th><input type="checkbox" class="box"/></th>
+                        <th>Name</th>
+                        <th>Admin</th>
+                        <th>Members</th>
+                        <th>Status</th>
+                        <th>Run time</th>
+                        <th>Finish date</th>
+                    </tr>
+                    <tbody class="table_body">
+                        <tr>
+                            <td><input type="checkbox" class="box1"/></td>
+                            <td><p class="name">ClientOnboarding-Circle</p></td>
+                            <td><div class="imgage_name"><img class="face1" src="image/Rose (2).jpg" alt="My Face" > Samatata J.</div></td>
+                            <td><div class="three">3</div></td>
+                            <td><div class="inProgress"><i class="icon1 fa fa-check-circle"></i> In progress</div></td>
+                            <td><div class="time">6 hours</div></td>
+                            <td><div class="mon">6 Mon</div></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="box1"/></td>
+                            <td><p class="name">Meeting with Webflow & Notion</p></td>
+                            <td><div class="imgage_name"><img class="face1" src="image/Rose (2).jpg" alt="My Face" > Bob P.</div></td>
+                            <td><div class="three">4</div></td>
+                            <td><div class="inDone"><i class="fa fa-check-circle"></i> Done</div></td>
+                            <td><div class="time">2 hours</div></td>
+                            <td><div class="mon">7 Tue</div></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="box1"/></td>
+                            <td><p class="name">First Handoff with Engineers</p></td>
+                            <td><div class="imgage_name"><img class="face1" src="image/Rose (2).jpg" alt="My Face" > Kate O.</div></td>
+                            <td><div class="three">10</div></td>
+                            <td><div class="inProgress"><i class="icon1 fa fa-check-circle"></i> In progress</div></td>
+                            <td><div class="time">3 days</div></td>
+                            <td><div class="mon">10 Fri</div></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="box1"/></td>
+                            <td><p class="name">Client Drafting (2) with Lawrence</p></td>
+                            <td><div class="imgage_name"><img class="face1" src="image/Rose (2).jpg" alt="My Face" > Jack F.</div></td>
+                            <td><div class="three">7</div></td>
+                            <td><div class="inProgress"><i class="icon1 fa fa-check-circle"></i>In progress</div></td>
+                            <td><div class="time">1 week</div></td>
+                            <td><div class="mon">19 Sun</div></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </section>
+            <section class="project">
+                <div class="productivty">
+                    <div class="product_date">
+                        <div class="product"> 
+                            <p class="pro">Productivity</p>
+                            <div class="research_container">
+                                <div class="research_div">
+                                    <div class="Research"></div>
+                                    <p>Research</p>
+                                </div>
+                                <div>
+                                    <div class="research_div">
+                                        <div class="Research design1"></div>
+                                        <p>Design</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="may_update">
+                            <div class="May_date">01-07 May</div>
+                            <div class="data_update">Data updates every 3 hours </div>
+                        </div>
+                    </div>
+                    <!-- <canvas id="splineGraph" width="300" height="90">
+                        <div class="graph">3h 10m</div>
+                    </canvas> -->
+                    <div class="graph_div" style="position: relative;">
+                        <div class="graph" style="position: absolute; top: 1px; right: 10px;">3h 10m</div>
+                        <canvas id="splineGraph" width="280" height="90"></canvas>
+                    </div>
+                    
+                </div> 
+                <div class="project_in_progress">
+                    <div class="PP">Projects in progress:</div>
+                    <br/>
+                    <section class="min_boxes">
+                        <div class="first_box active">
+                            <div class="feedBug">
+                                <div class="feedback">Feedback</div>
+                                <div class="bug">Bug</div>
+                                <div class="design">Design System</div>
+                            </div>
+                            <div>
+                                <p class="improve">Improve cards readability</p>
+                                <p class="date">21,03,22</p>
+                            </div>
+                
+                            <div class="img_comment">
+                                <div class="face_2">
+                                    <div class="face2" ><img class="img_face" src="image/Rose (2).jpg" alt="My Face" ></div>
+                                    <div class="face3"><img class="img_face" src="image/Rose (2).jpg" alt="My Face" ></div>
+                                    <div class="eight">+8</div>
+                                </div>
+                                <div class="file_comment">
+                                    <div class="comments">
+                                        <i class="fa fa-commenting-o"></i>
+                                        <p>12 comments</p>
+                                    </div>
+                                    <div class="files">
+                                        <i class="fa fa-file-archive-o"></i>
+                                        <p>0 files</p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_box"></div>
+                        <div class="third_box"></div>
+                        <div class="fourth_box"></div>
+                    </section>
+                    <div class="next-arrow" onclick="nextBox()">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>      
+            </section>
+        </div>
+    </div>
+
+
+
+  <script>
+    function nextBox() {
+    const activeBox = document.querySelector('.active');
+    const nextBox = activeBox.nextElementSibling;
+
+    if (nextBox && nextBox.classList.contains('min_boxes')) {
+        activeBox.classList.remove('active');
+        nextBox.firstElementChild.classList.add('active');
+    } else {
+        document.querySelector('.min_boxes').firstElementChild.classList.add('active');
+    }
+}
+
+    
+    // // Get the canvas element
+    // var ctx = document.getElementById('splineGraph').getContext('2d');
+
+    // // Define the data
+    // var data = {
+    //   labels: [ '','Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    //   datasets: [{
+    //     label: [],
+    //     data: [1, 2, 1.5, 2.3, 2.1, 3.8, 2.8,3.9, 2.6, 2.7,2.5,2.9],
+    //     fill: false, // Don't fill the area under the line
+    //     borderColor: '#06ACAC',
+    //     tension: 0.4 // Curvature of the spline
+    // },
+    // //   {
+    //     //     label: 'Dataset 2',
+    //     //     data: [5, 7, 10, 15, 8, 12, 6],
+    //     //     fill: false,
+    //     //     borderColor: 'rgb(255, 99, 132)',
+    //     //     tension: 0.4
+    //     //   },
+    //     {
+    //         div: 'Text',
+    //         data: [2, 1, 2.3, 1.2, 1.7, 1.3, 1.9,1.4,1.7,0.8],
+    //         fill: false,
+    //         borderColor: '#810284', // Line color
+    //         tension: 0.4
+    //     }]
+    // };
+
+    // // Create the spline graph
+    // var splineGraph = new Chart(ctx, {
+    //   type: 'line',
+    //   data: data,
+    //   options: {}
+    // });
+
+  // Get the canvas element
+const ctx = document.getElementById('splineGraph').getContext('2d');
+
+// Define the data
+const data = {
+      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    datasets: [{
+        label: 'sales',
+    data: [1, 2, 1.5, 2.3, 2.1, 3.8, 2.8,3.7, 2.6, 2.7,2.5,2.9],
+    // backgroundColor: 'rgba(75, 192, 192, 0.2)', // Fill color
+      borderColor: '#06ACAC',
+    borderWidth: 1,
+        tension: 0.4 // Curvature of the spline
+
+    },
+   {
+    //  label: '[]',
+     data: [ 2, 1, 2.3, 1.2, 1.7, 1.3, 1.9,1.4,1.7,0.8],
+    // backgroundColor: 'rgba(75, 192, 192, 0.2)', // Fill color
+    borderColor: '#810284', // Line color
+    borderWidth: 1,
+      tension: 0.4 // Curvature of the spline
+
+    }
+]};
+
+// Configure the options
+const options = {
+    scales: {
+        y: {
+            beginAtZero: true
+        }
+    },
+    plugins: {
+        drawHorizontalLine: {
+            y: 3, // Y-value where the line should be drawn (adjust as needed)
+            borderColor: 'red', // Color of the line
+            borderWidth: 1, // Width of the line
+            // borderDash: [5, 5] // Optional: Dashed line style
+        },
+        legend: {
+            display: false // Hide the legend
+        },
+        title: {
+            display: false,
+            text: 'My Chart with Horizontal Line' // Chart title
+        }
+    }
+};
+
+// Create the chart
+const myChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    options: options
+});
+
+
+  </script>
+</body>
+</html>
+
+</body>
+</html>

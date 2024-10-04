@@ -1,0 +1,362 @@
+body{
+    background-color: black;
+}
+
+.top_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.wander{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex: 1.7;
+}
+.wander img{
+    max-width: 20px;
+    height: auto;
+}
+.wander div{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.destination_service{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+
+}
+.tryApp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    flex:1.6
+}
+.tryApp img{
+    max-width: 20px;
+    height: auto;
+    margin-left: 10px;
+
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+}
+.first_child{
+    background-color: black;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.second_child{ 
+    background-color: black;
+    margin-top: 30px;
+    flex: 1;
+
+}
+.third_child{
+    background-color: black;
+    margin-top: 30px;
+    flex: 0.7;
+
+}
+.travelGuide{
+    width: 200px;
+    display: flex;
+    justify-content:flex-end ;
+    color: white;
+    margin: 10px 0px 0px 30px;
+    font-size: 12px;
+    align-items: center;
+    text-align: left;
+}
+.travelGuide img{
+    max-width: 20px;
+    height: auto;
+    margin:5px 5px 0px 0px;
+
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.explore2{
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 170px;
+    align-items: center;
+    text-align: left;
+}
+.escape_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.escape{
+    color: white;
+    max-width: 180px;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+}
+.cricel_image_container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+}
+.cricel{
+    width: 25px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.myFace{
+    width: 25px;
+    height: 40px;
+    border-radius: 10px;
+}
+.high_div{
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+}
+.high{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 130px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+.centre_image{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.centre_image img{
+    margin-top: 10px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.centre_image2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    /* margin: 0px 10px 0px 0px; */
+    justify-content: space-between;
+} 
+.unsplash_image{
+    margin-left: 10px;
+}
+.centre_image2 img{
+    max-width: 20px;
+    height: 20px;
+}
+.newPlaces_container{
+    margin-top: 10px ;
+}
+
+.newPlaces{
+    font-size: 14px;
+    text-align: center;
+    margin:5px 0px 0px 0px ;
+}
+.time_unlash{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.time_unlash2{
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 170px;
+    align-items: center;
+    text-align: right;
+}
+.explore_destination_div{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.explore_destination{
+    background-color: rgb(41, 40, 40);
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    height: 25px;
+}
+.yellow_green_container{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 5px;
+}
+.yellow_div{
+    width: 190px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #F5B205;
+    
+}
+
+.hotel_date{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 8px;
+}
+.hotel{
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+}
+.date_div{
+    font-size: 12px;
+
+}
+.star_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px 0px 10px;
+}
+.star_div{
+    font-size: 10px;
+    align-content: center;
+
+}
+.plus_div{
+   margin-top: 2px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    align-content: center;
+}
+.green_div{
+    width: 190px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: 12px;
+    background-color:#295328;
+}
+.flights{
+    width: 50px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    align-content: center;
+    margin: 10px 0px 0px 10px;
+}
+.lightpink_div{
+    width: 190px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #DCBDAC;
+    margin:8px 0px 0px 0px;
+
+}
+.white_div{
+    width: 190px;
+    height: 150px;
+    border-radius: 5px;
+    margin:8px 0px 0px 12px;
+    background-color:#FFFFFF;
+}
+.recomend_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.recomend{
+    font-size: 18px;
+    max-width: 130px;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+.map_container{
+    display: flex;
+    justify-content: right;
+    margin: 20px 15px 0px 0px;
+}
+.map_div{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.plus_div2{
+     margin: 8px 10px 0px 0px;
+     font-weight: bold;
+     font-size: 22px;
+     text-align: right;
+     align-content: center;
+ }
+ .reviews{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    align-content: center;
+    margin: 2px 0px 0px 10px;
+ }
+ .list_div{  
+        align-content: center;
+        font-size: 12px;
+        text-align: left;
+ }
+ .feed_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 20px 15px 0px 0px;
+}
+.feed_div{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.feed_div .fa{
+    font-size: 12px;
+}
